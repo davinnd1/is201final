@@ -1,0 +1,75 @@
+body{
+    font-family: Georgia, 'Times New Roman', Times, serif;
+    background-color: antiquewhite;
+}
+
+
+
+
+h1{
+    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+    color: goldenrod !important;
+    font-size: medium;
+    font-weight: bolder;
+    
+    
+}
+.text-uppercase{
+    font-family: 'Times New Roman', Times, serif;
+    color: blue !important;
+}
+/* div styles */
+.common{
+    font-family: 'Times New Roman', Times, serif;
+    position:absolute;
+
+}
+.top{
+    top: 0px;
+    left: 0px;
+    right: 0px;
+
+}
+.middle{
+    top: 100px;
+    left: 0px;
+    right: 0px;
+
+}
+.bottom{
+    position:fixed;
+    bottom: 0px;
+    left: 0px;
+    right: 0px;
+    z-index: 1;
+    text-align: center;
+    background-color: blanchedalmond;
+    font-style: italic;
+    font-weight: bold;
+
+
+}
+.imgcenter{
+    display: block;
+    margin: auto;
+    border: 5px dashed rgba(9, 47, 214, 0.167);
+
+
+}
+.justcenter{
+    display: block;
+    margin: auto;
+
+}
+.resume{
+    color: antiquewhite;
+    text-align: left;
+    white-space: nowrap;
+    
+}
+.alignright{
+    position: absolute; right: 1;
+}
+.background{
+    color: beige;
+}
